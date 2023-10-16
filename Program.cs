@@ -50,3 +50,13 @@
 // Task 3
 // Внутри класса Answer напишите метод ShowCube, который принимает на вход число 
 // (N) и выводит таблицу кубов чисел от 1 до N (включительно) каждое на новой строке.
+int number = new Random().Next(0,10);
+Console.WriteLine(number);
+int n = 1;
+while(n != number + 1)
+{
+    Console.WriteLine(n*n*n);
+    n += 1;
+}
+
+
