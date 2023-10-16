@@ -44,19 +44,29 @@
 // task 2
 // Внутри класса Answer напишите метод DistanceBetweenPoints, который принимает на вход координаты двух 
 // точек pointA и pointB в виде массива целых чисел, и возвращает расстояние между ними в 3D пространстве.
+// формула для определения расстояния в 3д плоскости почти та же что и для 2д
+// int[] pointA = {1,2,3};
+// int[] pointB = {2,3,4};
+// Console.WriteLine(pointA[0]);
+
+// Console.WriteLine(Math.Sqrt((pointA[0] - pointB[0])*(pointA[0] - pointB[0])+(pointA[1] - pointB[1])*(pointA[1] - pointB[1])+(pointA[2] - pointB[2])*(pointA[2] - pointB[2])));
+// return Math.Sqrt((pointA[0] - pointB[0])*(pointA[0] - pointB[0])+(pointA[1] - pointB[1])*(pointA[1] - pointB[1])+(pointA[2] - pointB[2])*(pointA[2] - pointB[2]));
+
+
+
 
 
 
 // Task 3
 // Внутри класса Answer напишите метод ShowCube, который принимает на вход число 
 // (N) и выводит таблицу кубов чисел от 1 до N (включительно) каждое на новой строке.
-int number = new Random().Next(0,10);
-Console.WriteLine(number);
-int n = 1;
-while(n != number + 1)
-{
-    Console.WriteLine(n*n*n);
-    n += 1;
-}
+// int number = new Random().Next(0,10);
+// Console.WriteLine(number);
+// int n = 1;
+// while(n != number + 1)
+// {
+//     Console.WriteLine(n*n*n);
+//     n += 1;
+// }
 
 
